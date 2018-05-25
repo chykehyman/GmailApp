@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#db4437</color>
+    <color name="colorPrimaryDark">#b93221</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+    <color name="text_black">#000000</color>
+    <color name="timestamp">#4285f4</color>
+</resources>

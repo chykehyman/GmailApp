@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_primary"
+            android:icon="@drawable/ic_primary_black_24dp"
+            android:title="Primary" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="Social" />
+        <item
+            android:id="@+id/nav_promotions"
+            android:icon="@drawable/ic_local_offer_black_24dp"
+            android:title="Promotions" />
+        <item
+            android:id="@+id/nav_updates"
+            android:icon="@drawable/ic_error_black_24dp"
+            android:title="Updates" />
+    </group>
+
+    <item android:title="All labels">
+        <menu>
+            <item
+                android:id="@+id/nav_starred"
+                android:icon="@drawable/ic_star_border_gray_24dp"
+                android:title="Starred" />
+            <item
+                android:id="@+id/nav_important"
+                android:icon="@drawable/ic_turned_in_black_24dp"
+                android:title="Important" />
+            <item
+                android:id="@+id/nav_sent"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sent" />
+        </menu>
+    </item>
+
+</menu>
